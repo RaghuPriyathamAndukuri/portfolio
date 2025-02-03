@@ -1,0 +1,66 @@
+/* Footer Section Start */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    color:#2980b9;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-icons a :hover{
+    color: #2980b9;
+}
+/* Responsive Design */
+
+/* For tablets and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    footer {
+        padding: 15px;
+        flex-direction: column;
+    }
+    .social-icons a {
+        font-size: 18px;
+        margin: 0 8px;
+    }
+}
+
+/* For smaller tablets and large phones (max-width: 768px) */
+@media (max-width: 768px) {
+    footer {
+        padding: 12px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-icons a {
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+/* For mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .social-icons a {
+        font-size: 14px;
+        margin: 5px 3px;
+    }
+    .name {
+        font-size: 14px;
+    }
+}

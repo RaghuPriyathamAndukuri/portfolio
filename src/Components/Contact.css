@@ -1,0 +1,110 @@
+/*contact*/
+#contact {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #B0D5E2;
+    border-radius: 0% 50% 0% 0%;
+}
+
+.contact-form {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}
+/* Responsive Design */
+
+/* For tablets and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .contact-form {
+        width: 70%;
+        padding: 15px;
+    }
+    .form-group input,
+    .form-group textarea {
+        padding: 8px;
+    }
+    .form-group button {
+        padding: 8px 16px;
+    }
+}
+
+/* For smaller tablets and large phones (max-width: 768px) */
+@media (max-width: 768px) {
+    #contact {
+        border-radius: 0;
+        padding: 15px;
+    }
+    .contact-form {
+        width: 90%;
+    }
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+    }
+    .form-group button {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+}
+
+/* For mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .contact-form {
+        width: 100%;
+        padding: 10px;
+        box-shadow: none;
+    }
+    .form-group label {
+        font-size: 14px;
+    }
+    .form-group input,
+    .form-group textarea {
+        font-size: 13px;
+        padding: 7px;
+    }
+    .form-group button {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+}
