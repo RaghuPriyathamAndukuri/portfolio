@@ -34,8 +34,8 @@ const Header = () => {
                     {/* Navbar Links */}
                     <ul className={menuOpen ? "nav-links open" : "nav-links"}>
                         <li><button onClick={() => scrollToSection('about')}>About</button></li>
-                        <li><button onClick={() => scrollToSection('education')}>Education</button></li>
                         <li><button onClick={() => scrollToSection('skills')}>Skills</button></li>
+                        <li><button onClick={() => scrollToSection('education')}>Education</button></li>
                         <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
                     </ul>
 
@@ -50,6 +50,9 @@ const Header = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1 }}
                 >
+                    {/* Added Profile Image Before h1 */}
+                    <img src="./Assests/Hero_skills.png" alt="Profile Image" className="profile-image" />
+
                     <h1>Hi, I'm <span>Raghu Priyatham Andukuri</span></h1>
                     <p>Master's Student in Computer Science <br /> At Southern Illinois University of Carbondale.</p>
 

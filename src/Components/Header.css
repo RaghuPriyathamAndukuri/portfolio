@@ -83,7 +83,11 @@ nav ul li button:hover {
     cursor: pointer;
     color: #333;
 }
-
+.profile-image {
+    width: 12%;
+    margin-left: 10%;
+    display: block;
+}
 
 
 /* Social Icons */
@@ -109,6 +113,10 @@ nav ul li button:hover {
     .header{
         height: auto;
     }
+    .profile-image {
+        width: 15%; /* Increase size slightly for better visibility */
+        margin-left: 5%;
+    }
     .hero-image {
         width: 50%;
         right: 50px;
@@ -123,6 +131,11 @@ nav ul li button:hover {
     }
     .header{
         height: auto;
+    }
+    .profile-image {
+        width: 20%;
+        margin: auto; /* Center the image */
+        display: block;
     }
     /* Hide regular navbar */
     .nav-links {
@@ -179,6 +192,11 @@ nav ul li button:hover {
 @media (max-width: 480px) {
     .header{
         height: auto;
+    }
+    .profile-image {
+        width: 30%;
+        margin: auto;
+        display: block;
     }
     .hero-text {
         margin-top: 20%;
