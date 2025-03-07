@@ -23,7 +23,7 @@ const Header = () => {
             <div className="header">
                 <nav>
                     <a href="./index.html">
-                        <img src=".Assests/Logo/Logo.png" alt="Logo" className="logo" />
+                        <img src="./Assests/Logo/Logo.png" alt="Logo" className="logo" />
                     </a>
 
                     {/* Hamburger Menu Icon */}
