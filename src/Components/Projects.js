@@ -7,7 +7,7 @@ const Projects = () => {
         {
             image: './Assests/DVR.png',
             title: 'Distance Vector Routing',
-            description: 'DVR Unicast is a method of streaming video directly from a Digital Video Recorder (DVR) to a single client over a network, allowing individual access to live or recorded content.'
+            description: 'Distance vector routing unicast is a routing method where routers share information about the best path to a specific destination with their neighbors, using distance metrics like hop count.'
         },
         {
             image: './Assests/Python.png',

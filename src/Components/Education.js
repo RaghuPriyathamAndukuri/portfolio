@@ -16,7 +16,7 @@ const Education = () => {
             details: 'Pursuing a Master’s in Computer Science at SIU Carbondale, specializing in Data Engineering, Business Intelligence, and AI, with a 4.0 GPA.'
         },
         {
-            date: 'June 2016 - April 2019',
+            date: 'July 2016 - June 2019',
             degree: 'Bachelor\'s Degree',
             institution: 'Raghu Engineering College',
             details: 'Completed a Bachelor\'s degree in Electronics and Communication Engineering, gaining a strong foundation in electronics, communication systems, and practical engineering skills.'
@@ -32,18 +32,18 @@ const Education = () => {
     const experienceData = [
         {
             date: 'August 2023 - Present',
-            position: 'Digital Media',
+            position: 'Web Developer',
             company: 'WSIU',
-            details: 'Digital Media Specialist at WSIU, enhancing website functionality, creating multimedia content, and boosting donations through strategic video scripting.'
+            details: 'Web Developer at WSIU, enhancing website functionality, creating multimedia content, and boosting donations through strategic video scripting.'
         },
         {
-            date: 'March 2021 - August 2022',
+            date: 'March 2021 - August 2023',
             position: 'System Engineer',
             company: 'Tata Consultancy Services',
-            details: 'System Engineer at Tata Consultancy Services, specializing in financial reporting systems, data integration, and performance optimization, while streamlining processes and reducing downtime.'
+            details: 'System Engineer at Tata Consultancy Services, Tracked and managed project tasks and bug history daily using JIRA, ensuring efficient collaboration and timely resolution of issues within the team'
         },
         {
-            date: 'February 2020 - March 2021',
+            date: 'July 2019 - March 2021',
             position: 'Junior Developer',
             company: 'Edsoft Technologies',
             details: 'Junior Developer at Edsoft Technologies, creating data-driven dashboards, developing e-learning systems, and enhancing WooCommerce sites to boost user engagement and client satisfaction.'

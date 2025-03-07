@@ -17,7 +17,7 @@ const Skills = () => {
             skills: [
                 { name: 'Python', icon: 'fas fa-code' },
                 { name: 'SQL', icon: 'fas fa-database' },
-                { name: 'Cloud Computing (AWS, GCP)', icon: 'fas fa-cloud' },
+                { name: 'Cloud Computing (Azure, GCP)', icon: 'fas fa-cloud' },
                 { name: 'ETL Pipelines', icon: 'fas fa-cogs' }
             ]
         },
